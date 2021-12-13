@@ -78,14 +78,24 @@
         "carbonintensityexport": "Uhlíková intenzita exportu",
         "ofinstalled": "nainštalovanej kapacity",
         "utilizing": "využitie",
+        "representing": "predstavuje",
+        "ofemissions": "emisií",
         "withcarbonintensity": "s intenzitou uhlíka",
+        "zoomIn": "Zväčšiť",
+        "zoomOut": "Zmenšiť",
         "showWindLayer": "Zobraz veternú vrstvu",
         "hideWindLayer": "Skry veternú vrstvu",
         "showSolarLayer": "Zobraz solárnu vrstvu",
         "hideSolarLayer": "Skry solárnu vrstvu",
         "toggleDarkMode": "Prepni tmavý režim",
         "noParserInfo": "Žiadne dáta",
-        "temporaryDataOutage": "Dáta momentálne nedostupné"
+        "temporaryDataOutage": "Dáta momentálne nedostupné",
+        "production": "výroba",
+        "consumption": "spotreba",
+        "cpinfo": "<b>spotreba</b> zahŕňa import a export, <b>výroba</b> ich ignoruje",
+        "selectLanguage": "Vyber jazyk / Select language",
+        "lowCarbDescription": "Zahŕňa obnoviteľné zdroje a výrobu z jadra",
+        "dataIsDelayed": "Údaje meškajú"
     },
     "misc": {
         "maintitle": "CO₂ emisie elektrickej spotreby v aktuálnom čase",
@@ -110,24 +120,24 @@
     "oil": "ropa",
     "unknown": "neznáme",
     "electricityComesFrom": "<b>%1$s %%</b> elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> pochádza z %3$s",
-    "emissionsComeFrom": "<b>%1$s %%</b> emisii z elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> pochádza z %3$s",
+    "emissionsComeFrom": "<b>%1$s %%</b> emisií z elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> pochádza z %3$s",
     "electricityStoredUsing": "<b>%1$s %%</b> elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je uchovávaných použitím %3$s",
-    "emissionsStoredUsing": "<b>%1$s %%</b> emisii z elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je uchovávaných použitím %3$s",
+    "emissionsStoredUsing": "<b>%1$s %%</b> emisií z elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je uchovávaných použitím %3$s",
     "electricityExportedTo": "<b>%1$s %%</b> elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je exportovaných do <img id=\"country-exchange-flag\"></img> <b>%3$s</b>",
-    "emissionsExportedTo": "<b>%1$s %%</b> emisii z elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je exportovaných do <img id=\"country-exchange-flag\"></img> <b>%3$s</b>",
+    "emissionsExportedTo": "<b>%1$s %%</b> emisií z elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je exportovaných do <img id=\"country-exchange-flag\"></img> <b>%3$s</b>",
     "electricityImportedFrom": "<b>%1$s %%</b> elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je importovaných z <img id=\"country-exchange-flag\"></img> <b>%3$s</b>",
-    "emissionsImportedFrom": "<b>%1$s %%</b> emisii z elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je importovaných z <img id=\"country-exchange-flag\"></img> <b>%3$s</b>",
+    "emissionsImportedFrom": "<b>%1$s %%</b> emisií z elektriny dostupnej v <img id=\"country-flag\"></img> <b>%2$s</b> je importovaných z <img id=\"country-exchange-flag\"></img> <b>%3$s</b>",
     "ofCO2eqPerMinute": "CO₂ za minútu",
     "theMap": {
         "groupName": "Mapa",
         "mapColors-question": "Čo znamenajú farby na mape?",
         "mapColors-answer": "Farebne vyznačujeme oblasti na mape podľa množstva skleníkových plynov vyprodukovaných na jednotku spotrebovanej elektriny v danej oblasti (jej <a href=\"#carbonIntensity\" class=\"entry-link\">intenzita uhlíku</a>)",
         "mapArrows-question": "Čo znamenajú šipky medzi oblasťami na mape?",
-        "mapArrows-answer": "Šipky medzi oblasťami znázorňujú fyzický tok (import a export) elektriny medzi oblasťami: čím rýchlejšie blikajú, tým rýchlejší tok je. Tok elektriny je dôležitý, pretože keď importujete niečo z vašej elektriny od súsediacej oblasti, tak importujete rovnako aj uhlíkové emisie súvisiace s jej produkciou.",
-        "mapSolarWindButtons-question": "Čo robia “slnko” a “vietor” tlačítka na mape?",
-        "mapSolarWindButtons-answer": "Tieto tlačítka prepínajú zobrazenie aktuálnej rýchlosti vetra a intenzity slnečného žiarenia, čo naznačuje potenciál prechodu na solárne a veterné energetické alternatívy v rozličných oblastiach. Berte v úvahu, že ide len o približnú indikáciu, pretože skutočný potenciál v inštalácií veterných turbín a solárnych jednotiek je tiež závislý od mnohých ďalších faktorov.",
+        "mapArrows-answer": "Šipky medzi oblasťami znázorňujú fyzický tok (import a export) elektriny medzi oblasťami: čím rýchlejšie blikajú, tým rýchlejší tok je. Tok elektriny je dôležitý, pretože keď importujete niečo z vašej elektriny od susediacej oblasti, tak importujete rovnako aj uhlíkové emisie súvisiace s jej produkciou.",
+        "mapSolarWindButtons-question": "Čo robia tlačítka “slnko” a “vietor” na mape?",
+        "mapSolarWindButtons-answer": "Tieto tlačítka prepínajú zobrazenie aktuálnej rýchlosti vetra a intenzity slnečného žiarenia, čo naznačuje potenciál prechodu na solárne a veterné energetické alternatívy v rozličných oblastiach. Berte do úvahy, že ide len o približnú indikáciu, pretože skutočný potenciál v inštalácii veterných turbín a solárnych jednotiek je tiež závislý od mnohých ďalších faktorov.",
         "mapNuclearColors-question": "Prečo sú krajiny s veľkým zastúpením jadrovej energie na mape zobrazené ako zelené?",
-        "mapNuclearColors-answer": "Produkcia jadrovej energie má veľmi nízku intenzitu uhlíku (<a href=\"https://en.wikipedia.org/wiki/Life-cycle_greenhouse-gas_emissions_of_energy_sources#2014_IPCC.2C_Global_warming_potential_of_selected_electricity_sources\"  target=\"_blank\" >zdroj</a>), a tieto krajiny sú preto zobrazené na mape zelenou farbou. To však neznamená, že tu nie sú žiadne iné enviromentálne výzvy spojené s jadrovou energiou (tak ako v prípade iných foriem energetickej produkcie), ale tieto výzvy nie sú spojené s emisiami skleníkovych plynov a sú teda mimo záber tejto mapy.",
+        "mapNuclearColors-answer": "Produkcia jadrovej energie má veľmi nízku intenzitu uhlíka (<a href=\"https://en.wikipedia.org/wiki/Life-cycle_greenhouse-gas_emissions_of_energy_sources#2014_IPCC.2C_Global_warming_potential_of_selected_electricity_sources\"  target=\"_blank\" >zdroj</a>), a tieto krajiny sú preto zobrazené na mape zelenou farbou. To však neznamená, že tu nie sú žiadne iné enviromentálne výzvy spojené s jadrovou energiou (tak ako v prípade iných foriem energetickej produkcie), ale tieto výzvy nie sú spojené s emisiami skleníkovych plynov a sú teda mimo záber tejto mapy.",
         "mapColorBlind-question": "Som farboslepý. Ako môžem čítať vašu mapu?",
         "mapColorBlind-answer": "Môžete zmeniť farby na mape tým, že zapnete režim pre farboslepých. Toto nastavenie sa nachádza v spodnej časti ľavého panelu v prehliadačovom móde a v INFO tabe v mobilnej aplikácii."
     },
@@ -136,7 +146,7 @@
         "noData-question": "Prečo nie sú dáta v mojej oblasti dostupné?",
         "noData-answer": "Buď je zdroj dát dočasne nedostupný alebo pretože zatiaľ nemáme žiadne zdroje dát pre túto oblasť. Môžete <a href=\"#contribute\" class=\"entry-link\">nám pomôcť pridaním nových zdrojov dát</a>.",
         "whySmallAreas-question": "Prečo delíte svet do malých oblastí a jednoducho nezobrazíte priemery krajín?",
-        "whySmallAreas-answer": "Tieto oblasti sú najmenšie geografické oblasti, pre ktoré máme dáta. Vďaka prístupu k informáciam na najvyššej úrovni jemnosti, spotrebiteľ energie v rôznych oblastiach môze mať presnejší prehľad o pôvode elektriny, ktorú spotrebúva a s tým spojený dopad na klímu.",
+        "whySmallAreas-answer": "Tieto oblasti sú najmenšie geografické oblasti, pre ktoré máme dáta. Vďaka prístupu k informáciam na najvyššej úrovni jemnosti, spotrebiteľ energie v rôznych oblastiach môze mať presnejší prehľad o pôvode elektriny, ktorú spotrebúva, a s tým spojený dopad na klímu.",
         "divideExistingArea-question": "Môžete rozdeliť moju oblasť na menšie?",
         "divideExistingArea-answer": "Určite, ak existujú separátne zdroje dát pre každú časť danej oblasti. Môžete <a href=\"#contribute\" class=\"entry-link\">nám pomôcť pridaním nových dátovych zdrojov</a>.",
         "seeHistoricalData-question": "Môžem zobraziť históriu oblasti staršiu ako 24 hodín?",
@@ -147,21 +157,21 @@
         "carbonIntensity-question": "Čo je \"intenzita uhlíka\"?",
         "carbonIntensity-answer": "Intenzita uhlíka je miera emisií skleníkových plynov vo vzťahu s produkciou elektriny, ktorú spotrebúvate (uvádza sa v gCO₂eq/kWh - gram ekvivalentov oxidu uhličitého vyprodukovaného na kilowatthodinu spotrebovanej elektriny). <br><br>My meriame emisie spotrebovy elektriny (nie produkcie), to znamená, že všetky skleníkové plyny (tak CO₂ ako aj iné skleníkové plyny, napríklad metán), ktoré vošli do produkcie elektriny, ktorá bola spotrebovaná v danej oblasti, berúc v úvahu intenzitu uhlíka elektriny importovanej z iných oblastí. Používame prístup posuzdovania životného cyklu (LCA - life cycle analysis approach), to znamená, že berieme v úvahu emisie vznikajúce v celom životnom cykle elektrárne (stavba, produkcia paliva, operatívne emisie, vyradenie).",
         "consumptionFocus-question": "Prečo počítate intenzitu uhlíka spotreby energie a nie pre jej produkciu?",
-        "consumptionFocus-answer": "Veríme, že obyvateľstvo by malo byt zodpovedné za elektrinu, ktorú spotrebuje a nie za elektrinu, ktorá je produkovaná v oblasti, v ktorej žije. Taktiež veríme, že oblasti by nemali byť schopné simulovať nízky dopad na klímu jednoducho tým, že premiestnia špinavú produkciu energie to iných oblastí a potom importovať elektrinu práve z nich.",
-        "renewableLowCarbonDifference-question": "Aký je rozdieľ medzi “obnoviteľný” and “s nízkymi emisiami”?",
+        "consumptionFocus-answer": "Veríme, že obyvateľstvo by malo byť zodpovedné za elektrinu, ktorú spotrebuje a nie za elektrinu, ktorá je produkovaná v oblasti, v ktorej žije. Taktiež veríme, že oblasti by nemali byť schopné simulovať nízky dopad na klímu jednoducho tým, že premiestnia špinavú produkciu energie to iných oblastí a potom importovať elektrinu práve z nich.",
+        "renewableLowCarbonDifference-question": "Aký je rozdieľ medzi “obnoviteľný” a “s nízkymi emisiami”?",
         "renewableLowCarbonDifference-answer": "Obnoviteľná produkcia energie je založená na obnoviteľnych zdrojoch energie ako napríklad vietor, tok vody, slnečné žiarenie, geotermálna energia. Nízkouhlíková produkcia energie znamená, že táto produkcia ovplyvňuje veľmi nízku úroveň emisií skleníkových plynov, ako napríklad produkcia jadrovej energie.",
         "importsAndExports-question": "Beriete v úvahu import a export elektriny?",
         "importsAndExports-answer": "Áno, berieme. Import a export je na mape znázornený malou <a href=\"#mapArrows\" class=\"entry-link\"> šipkou medzi rôznymi oblasťami. Bližšie informácie sú uvedené v grafe, ktorý sa zobrazí po kliknutí na oblasť.",
         "emissionsOfStored-question": "A čo emisie z generovania elektrickej energie, ktorá je potom uschovaná v batériach alebo použitá na plnenie nádrží?",
         "emissionsOfStored-answer": "Pretože zatiaľ len malé množstvo elektriny je uschovávané, nepresnosti modelnovaní týchto emisii by nemali mať momentálne veľky dopad na výsledok. Avšak veríme, že zvyšujúca sa dôležitosť kladená na uschovávanie energie povedie k tomu, že v blízkej budúcnosti zapracujeme tento faktor do nášho modelu",
-        "guaranteesOfOrigin-question": "Čo sú zelené cerfikáty a ako veľmi ich beriete v úvahu?",
-        "guaranteesOfOrigin-answer": "Keď produkcovia obnoviteľnej energie produkujú elektrinu, môžu vytvoriť Záruku pôvodou (Guarantee of Origin alebo Renewable Energy Cerificates) - dôkaz toho, že obnovitelná elektrina bola vyprodukovaná a distribuovaná to rozvodnej siete. Tieto záruky môzu byť predané/dané produkcovi s neobnoviteľnou energiou ako spôsob \"kompenzácie\" za jeho emisie a právo tvrdiť, že elektrina, ktorú produkuje, je z obnoviteľných zdrojov, napriek jej skutočnému, fyzickému pôvodu. <br><br> Toto znamená, že spotrebiteľom elektrickej energie môže byť povedané, že ich eletrická energia je zelená, aj keď to nie je pravda vo fyzickom zmysle. Táto problematika, tým ako odstraňuje stimuly spotrebiteľov spotrebúvať elektrinu v najlepšom čase (napríklad keď množstvo obnoviteľnej elektriny v sieti je najvyššie). Táto mapa teda vylučuje Záruky pôvodu, namiesto toho ponúka fyzický obraz rozvodnej siete na základe lokácie, aby si mohli spotrebitelia plne uvedomiť svoju zodpovednosť.",
-        "otherSources-question": "Prečo nezobrazujete iné zdroje emisii okrem produkcie elektriny?",
-        "otherSources-answer": "Bolo by to mimo záber tohto projektu. Napriek tomu, v Tomorrow aktívne pracueme na vyvoji <a href=\"#whoAreYou\" class=\"entry-link\">nového riešenia pre kvantifikáciu dopadu na klímu našich každodenných rozhodnutí</a>",
+        "guaranteesOfOrigin-question": "Čo sú zelené cerfikáty a ako veľmi ich beriete do úvahy?",
+        "guaranteesOfOrigin-answer": "Keď producenti obnoviteľnej energie produkujú elektrinu, môžu vytvoriť Záruku pôvodou (Guarantee of Origin alebo Renewable Energy Cerificates) - dôkaz toho, že obnovitelná elektrina bola vyprodukovaná a distribuovaná to rozvodnej siete. Tieto záruky môzu byť predané/dané produkcovi s neobnoviteľnou energiou ako spôsob \"kompenzácie\" za jeho emisie a právo tvrdiť, že elektrina, ktorú produkuje, je z obnoviteľných zdrojov, napriek jej skutočnému, fyzickému pôvodu. <br><br> Toto znamená, že spotrebiteľom elektrickej energie môže byť povedané, že ich eletrická energia je zelená, aj keď to nie je pravda vo fyzickom zmysle. Táto problematika, tým ako odstraňuje stimuly spotrebiteľov spotrebúvať elektrinu v najlepšom čase (napríklad keď množstvo obnoviteľnej elektriny v sieti je najvyššie). Táto mapa teda vylučuje Záruky pôvodu, namiesto toho ponúka fyzický obraz rozvodnej siete na základe lokácie, aby si mohli spotrebitelia plne uvedomiť svoju zodpovednosť.",
+        "otherSources-question": "Prečo nezobrazujete iné zdroje emisií okrem produkcie elektriny?",
+        "otherSources-answer": "Bolo by to mimo záber tohto projektu. Napriek tomu, v Tomorrow aktívne pracueme na vyvoji <a href=\"#whoAreYou\" class=\"entry-link\">nového riešenia pre kvantifikáciu dopadu na klímu našich každodenných rozhodnutí</a>.",
         "homeSolarPanel-question": "Čo ak mám doma nainštalovaný solárny panel?",
-        "homeSolarPanel-answer": "Meriame intenzitu uhlíka lokálnej rozvodnej siete, takže akákoľvek elektrina, ktorú spotrebúvate z vášho solárneho panelu (mimo siete) nie je súčasťou našich meraní. Ale ak váš solárny panel dodáva energiu do vašej lokálnej rozvodnej siete, jeho produkcia je zahrnutá v našich štatistikách v obliastiach, kde odhady produkcie lokálnej solárnej energie sú verejne dostupnú (ako napríklad vo Francúzsku alebo Velkej Británii).",
+        "homeSolarPanel-answer": "Meriame intenzitu uhlíka lokálnej rozvodnej siete, takže akákoľvek elektrina, ktorú spotrebúvate z vášho solárneho panela (mimo siete) nie je súčasťou našich meraní. Ale ak váš solárny panel dodáva energiu do vašej lokálnej rozvodnej siete, jeho produkcia je zahrnutá v našich štatistikách v oblastiach, kde odhady produkcie lokálnej solárnej energie sú verejne dostupné (ako napríklad vo Francúzsku alebo Veľkej Británii).",
         "emissionsPerCapita-question": "Prečo nezobrazujete emisie prepočítané na obyvateľa?",
-        "emissionsPerCapita-answer": "Niektoré časti z elektriny spotrebovanej v oblasti sú použíté na vyrobu fyzického tovaru alebo produktov, ktoré sú neskôr exportované a kozumované v iných oblastiach. Táto výroba a tiež jej spotreba elektriny a súvisiace emisie, je spôsobená spotrebou tovaru v <em>dovážajúcich krajinách</em>, nie v krajinách ich pôvodu. Veríme, ze ľudia by mali byť zodpovední za to, čo spotrebujú, nie za produkty vyrobené v oblastiach, v ktorých žijú, ak ich sami nekonzumujú. V tomto zmysle, zobrazenie emisií spotrebovanej elektriny na obyvateľa by mohlo pôsobiť zavádzajúco."
+        "emissionsPerCapita-answer": "Niektoré časti z elektriny spotrebovanej v oblasti sú použité na výrobu fyzického tovaru alebo produktov, ktoré sú neskôr exportované a kozumované v iných oblastiach. Táto výroba a tiež jej spotreba elektriny a súvisiace emisie, je spôsobená spotrebou tovaru v <em>dovážajúcich krajinách</em>, nie v krajinách ich pôvodu. Veríme, ze ľudia by mali byť zodpovední za to, čo spotrebujú, nie za produkty vyrobené v oblastiach, v ktorých žijú, ak ich sami nekonzumujú. V tomto zmysle, zobrazenie emisií spotrebovanej elektriny na obyvateľa by mohlo pôsobiť zavádzajúco."
     },
     "data": {
         "groupName": "Naše dáta",
@@ -175,7 +185,7 @@
     "aboutUs": {
         "groupName": "O nás",
         "whoAreYou-question": "Kto ste?",
-        "whoAreYou-answer": "ElectricityMap je vyvýjaná a udržovaná spoločnosťou <a href=\"https://www.tmrow.com/\" target=\"_blank\">Tomorrow</a>, malým dánsko-francúzskym startupom. Náš cieľ je pomôcť ľudstvu dosiahnuť udržateľný stav kvantifikovaním a konaním široko dostupných rozhodnutí pre dopad na klímu v našom kažodonennom živote ",
+        "whoAreYou-answer": "ElectricityMap je vyvíjaná a udržiavaná spoločnosťou <a href=\"https://www.tmrow.com/\" target=\"_blank\">Tomorrow</a>, malým dánsko-francúzskym startupom. Náš cieľ je pomôcť ľudstvu dosiahnuť udržateľný stav kvantifikovaním a konaním široko dostupných rozhodnutí pre dopad na klímu v našom kažodonennom živote.",
         "feedback-question": "Môžem vám nechať spätnú väzbu?",
         "feedback-answer": "Prosím, urobte tak! Môžete vyplniť <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSc-_sRr3mmhe0bifigGxfAzgh97-pJFcwpwWZGLFc6vvu8laA/viewform?c=0&w=1\" target=\"_blank\">náš formulár</a> alebo <a href=\"mailto:hello@electricitymap.org\">nám poslať email!</a>",
         "contribute-question": "Možem sa zapojiť do vášho projektu?",
@@ -296,7 +306,7 @@
             "zoneName": "Bolívia"
         },
         "BQ": {
-            "zoneName": "Bonaire, Sint Eustatius and Saba"
+            "zoneName": "Bonaire, Sint Eustatius a Saba"
         },
         "BR-CS": {
             "countryName": "Brazília",
@@ -1285,7 +1295,7 @@
             "zoneName": "Čad"
         },
         "TF": {
-            "zoneName": "Francúzske južné a antarktické teritória"
+            "zoneName": "Francúzske južné a antarktické teritóriá"
         },
         "TG": {
             "zoneName": "Togo"
